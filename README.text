@@ -1,0 +1,29 @@
+Dubrunfaut Lucie
+
+J'ai traité le sujet dans son intégralité, c'est à dire :
+_ Affichage de la liste des rendez-vous dans les 24h.
+_ Affichage des rendez-vous selon les 4 zones horaires délimitées (matin, après-midi, soir et nuit).
+_ Affichage des rendez-vous dans le passé, les 24h et dans le futur au-delà des 24h.
+
+Execution du projet:
+
+Afin de lancer mon projet veuillez utiliser le script compile en entrant dans le terminal la commande : ./compile
+Cette commade génère un fichier exécutable à partir de mon code.c mais il n'exécute pas le programme.
+Pour exécuter le programme entrer dans le terminale la commande : ./calendrier < calendrier.calc ou ./calendrier < calendrier.text (selon votre type de fichier de base).
+
+Extensions de vérification:
+_ Extension de vérification de l'existence de la date / heure actuelle (dont vérification s'il s'agit d'une année bissextile ou non).
+_ Extension de vérification de l'existence de la date / heure de chaque rendez-vous.
+_ Extension de vérification de la date du lendemain dans le décompte de rendez-vous dans les 24h (cas particulier du 31 ou 30 et du 31/12).
+
+Extensions diverses:
+_ Transformation des mois de chiffres en lettres (erreur si mois inexistant).
+_ Vérification de la saison actuelle selon la date actuelle (erreur si date incorrecte et source wikipédia pour les changements de saison).
+_ Vérification de la période astrologique actuelle selon la date actuelle(source wikipédia pour les dates de changement).
+_ Annonce du calendrier de l'avant. Permet de connaître le nombre de chocolat(s) restant dans le calendrier de l'avant du 01/12 au 25/12 en considérant qu'on mange le chocolat entre minuit et midi chaque jour.
+_ Chaque rendez-vous dans les 24h est annoncé avec le temps restant jusqu'à celui-ci.
+
+Apport de l'équipe L3BI:
+_ L'idée des mois transformé de chiffre vers lettre me vient de Nicolas.B
+_ Remise en mémoire des conditions de l'année bissextile par Mélissa.
+_ Globalement il y a eu de l'inspiration et plusieurs astuces donnés par les gens autour de moi chaque fois que je travaillais mais je ne saurais décompter plus précisément le nombre de fois ni les personnes concernées à chaque fois. Donc dire qu'il y a une colaboration de mes camarades à m'aider à voir les erreurs de mon code sur lesquelles je restais bloquée, etc serait plus juste. 
